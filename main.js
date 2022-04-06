@@ -6,10 +6,8 @@ const los = () => {
 
     const txt = document.querySelector('p');
     
-    if (number == 10) {
-        txt.textContent = 5;
-    }
-    if (number == 26) {
+    
+    if (number == 26 || number == 10) {
         txt.textContent = 1;
     }
     else {
