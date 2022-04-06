@@ -1,0 +1,68 @@
+                           /*      --- ZMIENNE ---      */
+  $bg: #1d1e22;          /* background color          */
+  $font: #fff;           /* font color*               */
+  $logo: #c8c2ba;        /* logo color*               */
+
+* {
+    background-color: $bg;
+    color: $font;
+    margin: 0;
+
+    ::-webkit-scrollbar { 
+      display: none; 
+  }
+}
+
+// font-family: 'La Belle Aurore', cursive;
+
+.disable-selection {
+    -webkit-touch-callout: none; /* iOS Safari                           */
+      -webkit-user-select: none; /* Safari                               */
+       -khtml-user-select: none; /* Konqueror HTML                       */
+         -moz-user-select: none; /* Firefox w przeszłości (stare wersje) */
+          -ms-user-select: none; /* Internet Explorer (>=10) / Edge      */
+              user-select: none; /* Aktualnie wspierane przez:           */
+                                 /* Chrome, Opera and Firefox            */
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  margin: 20px auto;
+  width: 130px;
+  height: 100px;
+  background-color: rgba(112, 128, 144, 0.3);
+  backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  text-align: center;
+  line-height: 50px;
+}
+
+button {
+  margin: 10 0;
+  height: 30px;
+  width: 100px;
+  background-color: rgba(112, 128, 144, 0.6);
+  backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+p {
+  text-align: center;
+  line-height: 30px;
+  margin: 10 0;
+  height: 35px;
+  width: 100px;
+  background-color: rgba(112, 128, 144, 0.6);
+  backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+h1 {
+  text-align: center;
+  font-size: medium;
+  margin-top: 10px;
+  letter-spacing: 5px;
+}
