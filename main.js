@@ -9,6 +9,9 @@ const los = () => {
     if (number == 10) {
         txt.textContent = 5;
     }
+    if (number == 24) {
+        txt.textContent = 5;
+    }
     else {
 
         txt.textContent = number;
