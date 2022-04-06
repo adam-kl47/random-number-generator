@@ -10,7 +10,7 @@ const los = () => {
         txt.textContent = 5;
     }
     if (number == 26) {
-        txt.textContent = 5;
+        txt.textContent = 1;
     }
     else {
 
